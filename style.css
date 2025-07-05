@@ -40,3 +40,19 @@ h1 {
 p {
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 481px) {
+    #container {
+        padding: 2rem 1rem;
+    }
+    #input {
+        width: 75%;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+    #submit {
+        padding: 3px 10px;
+    font-size: 1rem;
+    }
+}
