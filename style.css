@@ -12,6 +12,7 @@ body {
     align-items: center;
 }
 #container {
+    margin: 1rem;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.747);
     padding: 5rem 2rem;
@@ -25,7 +26,8 @@ h1 {
     background-color: white;
     margin-bottom: 2rem;
 }
-#submit {
+button {
+    margin: 1rem;
     padding: 10px 20px;
     border-radius: 5px;
     color: black;
@@ -33,7 +35,7 @@ h1 {
     transition: background-color .25s;
 }
 
-#submit:hover {
+button:hover {
     background-color:rgb(236, 228, 112);
     cursor: pointer;
 }
@@ -51,7 +53,7 @@ p {
     h1 {
         font-size: 1rem;
     }
-    #submit {
+    button {
         padding: 3px 10px;
     font-size: 1rem;
     }
