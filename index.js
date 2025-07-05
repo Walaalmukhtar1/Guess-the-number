@@ -9,7 +9,7 @@ let submit = document.getElementById("submit").onclick = function() {
     
     let guess = Number(input);
     if (remainingAttempts == 0){
-        msg.textContent =`No remaining attempts. The number was ${num}, loser.`;
+        msg.textContent =`No remaining attempts. The number was ${num}.`;
         return;
     }
     else if (guess > num) {
